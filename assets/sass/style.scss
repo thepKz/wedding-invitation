@@ -1,0 +1,107 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Mawhub - Wedding Invitation HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-partners-section
+	3.3 wpo-couple-section
+	3.4 wpo-video-section
+	3.5 wpo-story-section
+	3.6 wpo-portfolio-section
+	3.7 wpo-team-section
+	3.8 wpo-contact-section
+	3.9 wpo-event-section
+	3.10 wpo-cta-section
+	3.11 wpo-blog-section 
+
+4. wpo-footer
+
+5. Home-style-2 
+   5.1 couple-section-s2
+   5.2 wpo-story-section-s2
+   5.3 wpo-contact-section-s2
+   5.4 wpo-cta-section-s2
+   5.5 wpo-event-section-s2
+
+ 6. Home-style-3 
+  	6.1 wpo-wedding-date-s3
+	6.2 wpo-couple-section-s3
+	3.3 wpo-story-section-s3
+	6.4 wpo-contact-section-s3 
+	6.5 wpo-contact-map-section
+	
+7. wpo-wedding-single-area
+
+8. wpo-blog-pg-section
+
+9. wpo-blog-single-section
+
+10. error-404-section
+
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/shop-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/home-style2";
+@import "page/home-style3";
+@import "page/wedding-details";
+@import "page/blog";
+@import "page/blog-single";
+@import "page/error-404";
+
+
+
+
+
+
